@@ -1,0 +1,118 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 15px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 2px solid #2e374a;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form select {
+  width: 45%;
+}
+
+.form textarea {
+  width: 100%;
+}
+
+.form button {
+  width: 100%;
+  padding: 15px;
+  background-color: teal;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.panel {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.panelHeader {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panelBody {
+  padding: 15px;
+}
+
+.smallButton {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feature {
+  margin-bottom: 15px;
+}
+
+.checklistItem {
+  margin-top: 10px;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.statusFeature {
+  margin-bottom: 15px;
+}
